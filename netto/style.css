@@ -1,0 +1,99 @@
+*{
+    font-family: "Bungee", cursive;
+    text-decoration: none;
+}
+
+h1{
+    text-align: center;
+    font-size: 25px;
+}
+
+
+.foto{
+    align-items: center;
+    max-width: 190px;
+    box-shadow: 8px 8px 5px black;
+    border-radius: 10px;
+}
+
+.cards {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .cards .red {
+    background-color: #ff0000;
+    box-shadow: 5px 5px 3px black;
+  }
+  
+  .cards .blue {
+    background-color: #4000ae;
+    box-shadow: 5px 5px 3px black;
+  }
+  
+  .cards .green {
+    background-color: #05c819;
+    box-shadow: 5px 5px 3px black;
+  }
+
+  .cards .purple{
+    background-color: #470044;
+    box-shadow: 5px 5px 3px black;
+  }
+
+  .cards .gray{
+    background-color: #434343;
+    box-shadow: 5px 5px 3px black;
+  }
+  
+  .cards .cian{
+    background-color: #00bfff;
+    box-shadow: 5px 5px 3px black;
+  }
+  .cards .card {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    height: 100px;
+    width: 230px;
+    border-radius: 10px;
+    color: rgb(0, 0, 0);
+    cursor: pointer;
+    transition: 400ms;
+  }
+  
+  .cards .card p.tip {
+    margin-top: 10px;
+    font-size: 1.5em;
+    font-weight: 700;
+  }
+  
+  .cards .card p.second-text {
+    font-size: 1em;
+    justify-content: space-between;
+    margin-top: -25px;
+  }
+  
+  .cards .card:hover {
+    transform: scale(1.1, 1.1);
+  }
+  
+  .cards:hover > .card:not(:hover) {
+    filter: blur(1px);
+    transform: scale(0.9, 0.9);
+  }
+
+  .perfil:hover{
+    transform: scale(1.1, 1.1);
+    
+  }
+
+  .perfil:hover > .perfil:not(:hover){
+    filter: blur(1px);
+    transform: scale(1.9, 1.9);
+  }
